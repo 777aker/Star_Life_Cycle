@@ -51,7 +51,7 @@ public class MainGraphics extends JComponent {
 		g.drawImage(dmImage, 0, 0, this);
 		// dont forget to repaint sheesh, this is like the most important part
 		try {
-			TimeUnit.MILLISECONDS.sleep(100);
+			TimeUnit.MILLISECONDS.sleep(50);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
